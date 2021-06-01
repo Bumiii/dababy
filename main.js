@@ -16,7 +16,7 @@ client.on('ready', () => {
     var facts = ['yea yea', 'i pull up', 'https://youtu.be/U2JyeciEwSI', 'huh', 'https://youtu.be/KvuQNNVrbtM', 'less go']
     setInterval(function () {
         var fact = Math.floor(Math.random() * facts.length)
-        const channel = client.channels.cache.get('836677806599176206')
+        const channel = client.channels.cache.get('849328935992426527')
         channel.send(`${facts[fact]}`);
         console.log(facts[fact]);
     }, 3600000)
